@@ -1,7 +1,7 @@
-# blaSH — A Moroccan-Made Mini Shell 🇲🇦
+# blaSH — A Moroccan-Made Shell 🇲🇦
 
 **blaSH** is a 42 Network project inspired by the Unix **Bash** shell.  
-It’s a simplified yet functional **command-line interpreter** written in **C**, designed and built in **Morocco** 🇲🇦.
+It’s a simplified yet functional **command-line interpreter** written in **C*.
 
 The goal of blaSH is to provide hands-on experience in **system programming**, exploring how shells work internally — from **parsing commands** to **managing processes** and **handling signals**.
 
