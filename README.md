@@ -1,12 +1,12 @@
-# Minishell
+# blaSH
 
-Minishell is a cursus project in the 42 network programming school. The goal of this project is to implement a simple version of a Bash-like shell in C, supporting features such as pipes, redirections, expansions, and command execution.
+blaSH is a cursus project in the 42 network programming school. The goal of this project is to implement a simple version of a Bash-like shell in C, supporting features such as pipes, redirections, expansions, and command execution.
 
 The project aims to provide a hands-on experience in developing a command-line interpreter, exploring concepts like process management, signal handling, and parsing user input. By building a mini shell, students gain a deeper understanding of how shell programs work under the hood and learn about the intricacies of handling user interactions and executing commands.
 
-## How Minishell Works
+## How blaSH Works
 
-Minishell follows a simple yet effective workflow to process user input and execute commands:
+blaSH follows a simple yet effective workflow to process user input and execute commands:
 
 1. **Read Line**: The shell prompts the user for input and reads the entered command line.
 
@@ -20,7 +20,7 @@ This continuous loop of reading input, parsing, executing commands, and repeatin
 
 ### Parsing
 
-The parsing process in Minishell involves two main stages: lexing and parsing.
+The parsing process in blaSH involves two main stages: lexing and parsing.
 
 #### 1. Lexer
 
@@ -48,15 +48,15 @@ When a command is encountered, the shell checks if it is a built-in command or a
 
 #### Variable Expansion
 
-Minishell supports variable expansion, allowing users to define and reference environment variables within their commands. During the execution phase, the shell scans the command line for variable references (e.g., `$VAR`) and substitutes them with their corresponding values.
+blaSH supports variable expansion, allowing users to define and reference environment variables within their commands. During the execution phase, the shell scans the command line for variable references (e.g., `$VAR`) and substitutes them with their corresponding values.
 
 #### Wildcard Expansion
 
-Wildcard expansion is another feature supported by Minishell. When a command line contains wildcard characters (e.g., `*`, `?`), the shell expands them to match the corresponding files or directories in the current working directory.
+Wildcard expansion is another feature supported by blaSH. When a command line contains wildcard characters (e.g., `*`, `?`), the shell expands them to match the corresponding files or directories in the current working directory.
 
 #### Built-in Commands
 
-Minishell includes a set of built-in commands that are implemented directly within the shell. These commands provide functionality such as changing directories (`cd`) or setting environment variables (`export`). Built-in commands are executed without creating a new process, improving efficiency and reducing overhead.
+blaSH includes a set of built-in commands that are implemented directly within the shell. These commands provide functionality such as changing directories (`cd`) or setting environment variables (`export`). Built-in commands are executed without creating a new process, improving efficiency and reducing overhead.
 
 #### Signal Handling
 
@@ -64,9 +64,9 @@ The shell also handles various signals, such as `SIGINT` (Ctrl+C) and `SIGQUIT` 
 
 ## Enough theory, let's code :)
 
-Now that we've covered the theoretical aspects of how Minishell works, it's time to dive into the implementation details. In this section, we'll explore the core components of the shell, including the lexer, parser, and executor.
+Now that we've covered the theoretical aspects of how blaSH works, it's time to dive into the implementation details. In this section, we'll explore the core components of the shell, including the lexer, parser, and executor.
 
-It's important to note that the code snippets provided here represent my approach to implementing Minishell. While they serve as a reference and a starting point, feel free to adjust the data structures, algorithms, and overall design as per your understanding and coding style.
+It's important to note that the code snippets provided here represent my approach to implementing blaSH. While they serve as a reference and a starting point, feel free to adjust the data structures, algorithms, and overall design as per your understanding and coding style.
 
 Remember, there are multiple ways to achieve the same functionality, and the true learning experience lies in understanding the underlying concepts and crafting your own solution. The goal is not to merely copy and paste the code but to use it as a guide and adapt it to your specific needs and preferences.
 
