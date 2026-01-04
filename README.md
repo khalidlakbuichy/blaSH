@@ -321,7 +321,7 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**Built with 🧠 by [Khalid](https://github.com/YOUR_USERNAME) at 42 Network**
+**Built with 🧠 by [Khalid](https://github.com/khalidlakbuichy) and [Saad](https://github.com/saad-out) at 42 Network**
 
 ⭐ Star this repo if you find it useful!
 
